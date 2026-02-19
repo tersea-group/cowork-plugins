@@ -6,7 +6,10 @@ Génère automatiquement des grilles d'objectifs annuels complètes pour tout co
 
 | Type | Nom | Description |
 |------|-----|-------------|
+| Commande | `/objectifs` | Génère une grille d'objectifs pour un collaborateur |
 | Skill | hr-objectifs-annuels | Workflow complet de génération d'objectifs annuels pondérés |
+
+**Groupe de commandes** : Tersea Perf
 
 ## Fonctionnalités
 
@@ -17,7 +20,13 @@ Génère automatiquement des grilles d'objectifs annuels complètes pour tout co
 - Création optionnelle de pages Notion structurées
 - Calibrage automatique depuis l'évaluation N-1
 
-## Déclencheurs
+## Utilisation
+
+```
+/objectifs NomDuCollaborateur
+```
+
+## Déclencheurs (langage naturel)
 
 - "Créer les objectifs annuels de [nom]"
 - "Fixer les objectifs [année] pour [nom/poste]"
@@ -35,6 +44,8 @@ Génère automatiquement des grilles d'objectifs annuels complètes pour tout co
 hr-objectifs-annuels/
 ├── .claude-plugin/
 │   └── plugin.json
+├── commands/
+│   └── objectifs.md
 ├── skills/
 │   └── hr-objectifs-annuels/
 │       ├── SKILL.md

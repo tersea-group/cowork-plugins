@@ -1,9 +1,10 @@
 {
   "name": "hr-objectifs-annuels",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Génère des grilles d'objectifs annuels pondérés pour tout collaborateur, avec feuille Excel auto-calculante (note globale → prime) et pages Notion structurées.",
   "author": {
     "name": "Sébastien Monnier"
   },
-  "keywords": ["hr", "objectifs", "évaluation", "prime", "excel", "tersea", "deskea"]
+  "keywords": ["hr", "objectifs", "évaluation", "prime", "excel", "tersea", "deskea"],
+  "commandGroup": "Tersea Perf"
 }
