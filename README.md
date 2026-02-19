@@ -13,11 +13,13 @@ Marketplace interne de plugins Claude Cowork pour le Groupe Tersea et Deskea.
 | Plugin | Description | Commande |
 |--------|-------------|----------|
 | **deskea-bdc** | Generateur de Bons de Commande Deskea | `/bdc` |
+| **hr-objectifs-annuels** | Grilles d'objectifs annuels avec Excel auto-calculant | *(langage naturel)* |
 
 ## Installer un plugin
 
 ```
 /plugin install deskea-bdc@tersea-plugins
+/plugin install hr-objectifs-annuels@tersea-plugins
 ```
 
 ## Mises a jour

@@ -1,0 +1,78 @@
+{
+  "collaborateur": "Nicolas Roux",
+  "poste": "CPO (Chief Product Officer)",
+  "entite": "Deskea",
+  "annee": 2026,
+  "manager": "Sébastien",
+  "bareme": [
+    {"seuil": "< 40%", "niveau": "Insatisfaisant", "prime": "0% prime", "couleur": "F44336"},
+    {"seuil": "40% - 59%", "niveau": "Partiellement satisfaisant", "prime": "50% prime", "couleur": "FF9800"},
+    {"seuil": "60% - 79%", "niveau": "Satisfaisant", "prime": "100% prime", "couleur": "4CAF50"},
+    {"seuil": "80% - 89%", "niveau": "Très satisfaisant", "prime": "120% prime", "couleur": "2196F3"},
+    {"seuil": "≥ 90%", "niveau": "Exceptionnel", "prime": "150% prime", "couleur": "9C27B0"}
+  ],
+  "axes": [
+    {
+      "id": "AXE 1",
+      "label": "STRATÉGIE PRODUIT (20%)",
+      "couleur": "0984E3",
+      "objectifs": [
+        {
+          "num": 1,
+          "titre": "Prendre en main la veille concurrentielle et la roadmap stratégique",
+          "axe_strategique": "Innovation & R&D",
+          "type": "Quantitatif",
+          "poids": 0.10,
+          "kpi": "Nb benchmarks livrés ; nb quick-wins ; nb déplacements/calls. ⚠️ Tracker terrain Q1.",
+          "cible_quanti": 4,
+          "cible_quali": "4 benchmarks/trim, 2 déplacements/trim, 2 quick-wins/benchmark.",
+          "seuil": 3,
+          "mode_calcul": "Cumul",
+          "periode": "Trimestriel",
+          "echeance": "31/12/2026",
+          "ind_coll": "Individuel",
+          "plan_action": "1) Créer tracker Q1 2) Déplacements mensuels 3) 1 benchmark/trim 4) Reco proactives DG"
+        },
+        {
+          "num": 2,
+          "titre": "Posture CPO : vision, initiative, pragmatisme",
+          "axe_strategique": "Innovation & R&D",
+          "type": "Qualitatif",
+          "poids": 0.10,
+          "kpi": "Nb initiatives lancées ; ratio solutions/problèmes. ⚠️ Suivi mensuel Q1.",
+          "cible_quanti": "",
+          "cible_quali": "Min. 1 initiative/mois, ratio > 2:1, CR actionnable 24h.",
+          "seuil": "",
+          "mode_calcul": "Autre",
+          "periode": "Mensuel",
+          "echeance": "31/12/2026",
+          "ind_coll": "Individuel",
+          "plan_action": "1) Tracker initiatives Q1 2) CR 24h 3) Revue mensuelle DG"
+        }
+      ]
+    },
+    {
+      "id": "AXE 2",
+      "label": "MANAGEMENT & LEADERSHIP (10%)",
+      "couleur": "00B894",
+      "objectifs": [
+        {
+          "num": 3,
+          "titre": "Piloter l'équipe UI/UX avec leadership positif",
+          "axe_strategique": "Développement RH & Talent",
+          "type": "Qualitatif",
+          "poids": 0.10,
+          "kpi": "Design Reviews ; feedback 360 ; taux livrables délais. ⚠️ Feedback 360 Q1.",
+          "cible_quanti": "",
+          "cible_quali": "40 Design Reviews/an, feedback > 3.5/5, 80% livrables délais.",
+          "seuil": "",
+          "mode_calcul": "Autre",
+          "periode": "Semestriel",
+          "echeance": "31/12/2026",
+          "ind_coll": "Individuel",
+          "plan_action": "1) Rituels UI/UX Q1 2) Feedback 360 S1+S2 3) 1:1 hebdo"
+        }
+      ]
+    }
+  ]
+}
