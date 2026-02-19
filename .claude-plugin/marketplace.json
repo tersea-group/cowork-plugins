@@ -25,7 +25,7 @@
       "name": "hr-objectifs-annuels",
       "source": "./plugins/hr-objectifs-annuels",
       "description": "Genere des grilles d'objectifs annuels ponderes avec fichier Excel auto-calculant (note globale, prime) et pages Notion structurees.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "hr",
       "tags": ["hr", "objectifs", "evaluation", "prime", "excel", "tersea", "deskea"],
       "author": {
