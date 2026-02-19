@@ -1,0 +1,25 @@
+{
+  "name": "tersea-plugins",
+  "owner": {
+    "name": "Groupe Tersea",
+    "email": "dsi@tersea.com"
+  },
+  "metadata": {
+    "description": "Plugins internes Groupe Tersea & Deskea pour Claude Cowork",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "deskea-bdc",
+      "source": "./plugins/deskea-bdc",
+      "description": "Generateur de Bons de Commande Deskea avec grille tarifaire deck v5, commande /bdc et declenchement automatique.",
+      "version": "1.0.0",
+      "category": "commercial",
+      "tags": ["deskea", "bdc", "bon-de-commande", "commercial", "saas"],
+      "author": {
+        "name": "Groupe Tersea / Deskea"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "deskea-bdc",
+  "version": "1.0.0",
+  "description": "Generates Deskea order forms (Bons de Commande) from client information with default pricing from the Deskea pitch deck v5. Includes a /bdc command and an auto-triggering skill for natural language requests.",
+  "author": {
+    "name": "Groupe Tersea / Deskea"
+  },
+  "keywords": ["deskea", "tersea", "bdc", "bon-de-commande", "commercial", "saas"]
+}
